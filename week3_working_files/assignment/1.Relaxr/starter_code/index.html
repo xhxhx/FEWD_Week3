@@ -22,7 +22,7 @@
 						<h1>Relaxr</h1>
 				</div>
 				<nav>
-					<a>About</a>
+					<a href="lander.html">About</a>
 					<a>FAQ</a>
 					<a>Team</a>
 					<a>Contact Us</a>
@@ -65,7 +65,11 @@
 			</main>
 			</div>
 			<section class="yellowrow">
-				<div class="signupbtn">Sign Up Now!</div>
+				<div id="modal">We are not ready for signups...yet!<br><br>
+					<input type="button" value="OK" onClick="Popup.hide('modal')">
+				</div>
+				<a href="#" onclick="Popup.showModal('modal');return false;"><div class="signupbtn">Sign Up Now!</a>
+				</div>
 			</section>
 			<footer class="footer-flexbox">
 				<div class="box">

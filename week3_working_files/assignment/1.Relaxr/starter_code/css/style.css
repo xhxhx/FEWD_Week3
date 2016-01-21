@@ -65,7 +65,10 @@ body {
 
 header {
   display: flex;
-  background: #033048 url(images/bg.jpg);
+  background-image: url(../images/bg.jpg);
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  background-size: cover;
   /*background-color: #033048;*/
   padding: 3% 5%;
 }
@@ -97,7 +100,7 @@ a:link {
 }
 
 a:visited {
-  color: white;
+  color: navy;
 }
 
 a:hover {
@@ -108,10 +111,18 @@ a:active {
   color: navy;
 }
 
-
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
+
+#modal {
+  border: 1px solid black;
+  background-color: #ffffff;
+  padding: 2%;
+  font-size: 150%;
+  text-align: center;
+  display: none;
+}
 
 .navbox h1 {
   color: white;
